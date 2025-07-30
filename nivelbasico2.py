@@ -6,7 +6,9 @@ espacio_libre_gb = int(input())
 # 3. Si es menor a 10GB
 if espacio_libre_gb < 10:
     print("¡Alerta! El espacio libre en disco es crítico. Requiere limpieza urgente")
+# 4. Si el espacio libre está entre 10 GB y 50 GB
 elif espacio_libre_gb in range(10,51):
     print("Advertencia: El espacio libre en disco es bajo. Considere realizar una revisión")
+# 5. Si el espacio libre es mayor a 50 GB
 elif espacio_libre_gb > 50:
     print("El espacio libre en disco es adecuado.")
